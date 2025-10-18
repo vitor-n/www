@@ -6,6 +6,12 @@
 	import "../app.css";
 	import StyledButton from "$lib/components/StyledButton.svelte";
 
+	import {
+		backButton,
+		archiveButtons,
+		contactButtons,
+	} from "$lib/const.js";
+
 	let { children } = $props();
 
 	async function main() {
@@ -41,52 +47,12 @@
 				y: [20, 0],
 			},
 			{
-				delay: stagger(0.05)
-			}
-		)
+				delay: stagger(0.05),
+			},
+		);
 	}
 
 	onMount(main);
-
-	const backButton = [
-		{
-			href: "#back",
-			icon: "fa-solid fa-arrow-left",
-			ariaLabel: "Voltar",
-		},
-	];
-
-	const archiveButtons = [
-		{
-			href: "#professional",
-			label: "Profissional",
-		},
-		{
-			href: "#personal",
-			label: "Pessoal",
-		},
-	];
-
-	const contactButtons = [
-		{
-			href: "https://www.github.com/vitor-n",
-			target: "_blank",
-			icon: "fa-brands fa-github",
-			ariaLabel: "Github",
-		},
-		{
-			href: "https://www.linkedin.com/in/vitor-do-nascimento",
-			target: "_blank",
-			icon: "fa-brands fa-linkedin",
-			ariaLabel: "LinkedIn",
-		},
-		{
-			href: "mailto: vitornascimento@proton.me",
-			target: "_blank",
-			icon: "fa-solid fa-envelope",
-			ariaLabel: "Email",
-		},
-	];
 </script>
 
 <main
