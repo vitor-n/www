@@ -12,10 +12,10 @@
 	export let items = [];
 </script>
 
-{#if items.length === 1}
-	{@const item = items[0]}
+<div class="flex rounded-lg bg-neutral-000 overflow-hidden">
+	{#if items.length === 1}
+		{@const item = items[0]}
 
-	<div class="flex rounded-lg bg-neutral-000 overflow-hidden">
 		<a
 			href={item.href}
 			target={item.target}
@@ -34,9 +34,7 @@
 				</span>
 			{/if}
 		</a>
-	</div>
-{:else if items.length > 1}
-	<div class="flex rounded-lg bg-neutral-000 overflow-hidden">
+	{:else if items.length > 1}
 		{#each items as item, i}
 			{#if i > 0}
 				<div class="w-[0px] bg-black"></div>
@@ -64,5 +62,5 @@
 				{/if}
 			</a>
 		{/each}
-	</div>
-{/if}
+	{/if}
+</div>
