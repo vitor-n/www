@@ -15,24 +15,26 @@
 {#if items.length === 1}
 	{@const item = items[0]}
 
-	<a
-		href={item.href}
-		target={item.target}
-		aria-label={item.ariaLabel || item.label}
-		class="flex rounded-lg hover:scale-110 duration-200 focus:outline-none"
-		class:hover:scale-115={item.icon}
-		class:p-2.5={item.icon}
-		class:py-2={item.label}
-		class:px-4={item.label}
-	>
-		{#if item.icon}
-			<i class={item.icon}></i>
-		{:else if item.label}
-			<span class="text-sm font-medium">
-				{item.label}
-			</span>
-		{/if}
-	</a>
+	<div class="flex rounded-lg bg-neutral-000 overflow-hidden">
+		<a
+			href={item.href}
+			target={item.target}
+			aria-label={item.ariaLabel || item.label}
+			class="hover:scale-110 duration-200 focus:outline-none"
+			class:hover:scale-115={item.icon}
+			class:p-2.5={item.icon}
+			class:py-2={item.label}
+			class:px-4={item.label}
+		>
+			{#if item.icon}
+				<i class={item.icon}></i>
+			{:else if item.label}
+				<span class="text-sm font-medium">
+					{item.label}
+				</span>
+			{/if}
+		</a>
+	</div>
 {:else if items.length > 1}
 	<div class="flex rounded-lg bg-neutral-000 overflow-hidden">
 		{#each items as item, i}

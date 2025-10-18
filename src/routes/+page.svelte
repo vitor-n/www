@@ -3,10 +3,10 @@
 </script>
 
 <section>
-	<div class="flex flex-col gap-10">
-		<a id="logo" href="/">
+	<div id="content" class="flex flex-col gap-10">
+		<a href="/">
 			<h4 class="text-base italic opacity-60">Cientista de Dados</h4>
-			<h2 class="text-4xl font-bold">Olá, eu sou o Vitor</h2>
+			<h1 class="text-4xl font-bold">Olá, eu sou o Vitor</h1>
 		</a>
 
 		<p class="text-base opacity-60">
@@ -19,7 +19,7 @@
 	</div>
 </section>
 
-<section class="md:ml-5 flex flex-col gap-8">
+<section id="projects" class="md:ml-5 flex flex-col gap-8">
 	{#each { length: 3 } as _}
 		<Card
 			title="Modest"

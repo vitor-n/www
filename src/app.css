@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@tailwind utilities;
+
+@layer utilities {
+	nav > *,
+	#projects > a > div > *,
+	#projects > a > img,
+    #content > a > *, 
+    #content > p,
+	footer > * {
+        @apply opacity-0;
+    }
+}
