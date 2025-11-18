@@ -5,15 +5,15 @@
 <section>
 	<div id="content" class="flex flex-col gap-10">
 		<a href="/">
-			<h4 class="text-base italic opacity-60">Cientista de Dados</h4>
-			<h1 class="text-4xl font-bold">Olá, eu sou o Vitor</h1>
+			<h1 class="text-4xl font-bold">Olá, eu sou o Vitor!</h1>
+			<h4 class="text-base italic opacity-60">Graduando em Ciência de Dados &amp; IA</h4>
 		</a>
 
 		<p class="text-base text-neutral-600">
 			Graduando em Ciência de Dados &amp; Inteligência Artificial pela
-			Fundação Getulio Vargas (FGV) - RJ, com sólido conhecimento em
+			FGV - RJ, com sólido conhecimento em
 			Machine Learning, Visualização de Dados e Análise de Dados.
-			Atualmente, estou trabalhando em um projeto de pesquisa focado
+			Atualmente, estou trabalhando em um projeto de pesquisa (bolsista PIBIC) focado
 			elaboração de Redes Neurais Geometricas, com foco em Sheaf Neural
 			Networks.
 		</p>

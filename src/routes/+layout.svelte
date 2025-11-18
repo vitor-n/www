@@ -69,7 +69,7 @@
 	<footer
 		class="flex mx-auto flex-col md:flex-row items-center gap-2 opacity-60"
 	>
-		<p class="text-base">Feito por mim</p>
+		<p class="text-base">Feito por mim, Vitor</p>
 		<p class="hidden md:block">&bullet;</p>
 		<a
 			class="text-base font-bold"
