@@ -2,6 +2,7 @@
 
 @tailwind utilities;
 
+
 @layer utilities {
 	nav > *,
 	#projects > a > div > *,
@@ -11,4 +12,8 @@
 	footer > * {
         @apply opacity-0;
     }
+}
+
+body {
+	background-color: #fff;
 }

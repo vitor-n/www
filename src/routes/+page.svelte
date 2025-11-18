@@ -9,12 +9,13 @@
 			<h1 class="text-4xl font-bold">Olá, eu sou o Vitor</h1>
 		</a>
 
-		<p class="text-base opacity-60">
+		<p class="text-base text-neutral-600">
 			Graduando em Ciência de Dados &amp; Inteligência Artificial pela
-			Fundação Getulio Vargas (FGV), com sólida experiência em Machine
-			Learning, Visualização de Dados e Análise Estatística. Atualmente,
-			estou trabalhando de um projeto de pesquisa focado nas propriedades
-			do Laplaciano de Feixes.
+			Fundação Getulio Vargas (FGV) - RJ, com sólido conhecimento em
+			Machine Learning, Visualização de Dados e Análise de Dados.
+			Atualmente, estou trabalhando em um projeto de pesquisa focado
+			elaboração de Redes Neurais Geometricas, com foco em Sheaf Neural
+			Networks.
 		</p>
 	</div>
 </section>

@@ -59,8 +59,8 @@
 	class="mx-auto w-full px-8 md:px-0 md:w-2/3 lg:w-1/2 h-full relative gap-16 py-8 md:py-16 flex flex-col"
 >
 	<nav class="flex justify-center md:justify-end items-center gap-2">
-		<StyledButton items={backButton} />
-		<StyledButton items={archiveButtons} />
+		<!-- <StyledButton items={backButton} /> -->
+		<!-- <StyledButton items={archiveButtons} /> -->
 		<StyledButton items={contactButtons} />
 	</nav>
 

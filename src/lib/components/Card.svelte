@@ -11,7 +11,7 @@
 			{title}
 		</h1>
 
-		<p class="text-base opacity-60 order-3 md:order-none">
+		<p class="text-base text-neutral-600 order-3 md:order-none">
 			{description}
 		</p>
 
